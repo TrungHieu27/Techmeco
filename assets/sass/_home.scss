@@ -13,24 +13,28 @@
         }
         .chevron-prev {
             top: 45%;
-            left: -40px;
+            left: -50px;
         }
         .chevron-next {
             top: 45%;
-            right: -40px;
+            right: -50px;
         }
     }
     @include maxWidth(1024px) {
         &-img {
             margin: 0;
-        }
-        .chevron-prev {
-            top: 40%;
-            left: -35px;
-        }
-        .chevron-next {
-            top: 40%;
-            right: -35px;
+            .slick-list {
+                width: 90%;
+                margin: 0 auto;
+            }
+            .chevron-prev {
+                top: 40%;
+                left: -5px;
+            }
+            .chevron-next {
+                top: 40%;
+                right: -5px;
+            }
         }
     }
     @include maxWidth(576px) {

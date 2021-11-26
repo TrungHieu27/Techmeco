@@ -595,23 +595,27 @@ a:hover {
 }
 .header-img .chevron-prev {
   top: 45%;
-  left: -40px;
+  left: -50px;
 }
 .header-img .chevron-next {
   top: 45%;
-  right: -40px;
+  right: -50px;
 }
 @media (max-width: 1024px) {
   .header-img {
     margin: 0;
   }
-  .header .chevron-prev {
-    top: 40%;
-    left: -35px;
+  .header-img .slick-list {
+    width: 90%;
+    margin: 0 auto;
   }
-  .header .chevron-next {
+  .header-img .chevron-prev {
     top: 40%;
-    right: -35px;
+    left: -5px;
+  }
+  .header-img .chevron-next {
+    top: 40%;
+    right: -5px;
   }
 }
 @media (max-width: 576px) {
@@ -1630,7 +1634,7 @@ a:hover {
 }
 .contact-page .form {
   background: #f2f2f2;
-  padding: 30px;
+  padding: 30px 30px 40px;
 }
 .contact-page .form .title {
   font-size: 1.5rem;
