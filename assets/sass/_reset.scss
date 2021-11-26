@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'UTM HelvetIns';
+    font-display: swap; 
+    src: url('../font/UTM\ HelvetIns.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-display: swap; 
+    src: url('../font/Lato\ Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: 'UTM Avo';
+    font-display: swap; 
+    src: url('../font/UTM\ Avo.ttf') format('opentype');
+}
+
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato';
+    line-height: 1.4;
+}
+.container {
+    max-width: 1230px;
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: #000;
+    text-decoration: none;
+}

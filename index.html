@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="header-logo">
+                            <a href="./index.html"><img src="./assets/img/Techmeco Logo 1.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-6">
+                        <form action="" class="search-top">
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <select class="form-control">
+                                        <option selected>Loại sản phẩm</option>
+                                        <option value="1">AIR PURIFICATION</option>
+                                        <option value="2">BEAMS</option>
+                                        <option value="3">CONTROLS</option>
+                                        <option value="4">CRITICAL ENVIRONMENTS</option>
+                                        <option value="5">DAMPERS</option>
+                                    </select>
+                                </div>
+                                <input type="text" class="form-control" placeholder="Nhập tìm kiếm bằng từ khóa...">
+                                <div class="input-group-append">
+                                    <button class="btn btn-search form-control">
+                                        <i class="fas fa-search"></i>
+                                        Tìm kiếm
+                                    </button>    
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-3 col-6">
+                        <div class="header-contact">
+                            <p>Liên hệ với chúng tôi nhận tư vấn</p>
+                            <span>+(84) 123 456 789</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <div class="header-nav">
+                <ul class="nav">
+                    <li><a href="./index.html">trang chủ</a></li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li>
+                        <a href="./page/product.html">Sản phẩm</a>
+                        <ul class="sub-nav">
+                            <li><a href="./page/product.html">AIR PURIFICATION</a></li>
+                            <li><a href="#">BEAMS</a></li>
+                            <li><a href="#">CONTROLS</a></li>
+                            <li><a href="#">CRITICAL ENVIRONMENTS</a></li>
+                            <li><a href="#">DAMPERS</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Dự án</a></li>
+                    <li>
+                        <a href="#">Dịch vụ</a>
+                        <ul class="sub-nav">
+                            <li><a href="#">Tư vấn kỹ thuật</a></li>
+                            <li><a href="#">Cung cấp các thiết bị quạt thông gió</a></li>
+                            <li><a href="#">Bảo trì sửa chữa</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./page/news-page.html">Tin tức</a></li>
+                    <li><a href="#">Tuyển dụng</a></li>
+                    <li><a href="./page/contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+            <div class="header-img">
+                <img src="./assets/img/1 1312309798.png" alt="">
+                <img src="./assets/img/1 1312309798.png" alt="">
+                <img src="./assets/img/1 1312309798.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="product-category">
+        <div class="container">
+            <div class="title-category">
+                danh mục sản phẩm
+            </div>
+            <div class="product-category-list">
+                <div class="row">
+                    <div class="col-lg-3 col-6">
+                        <div class="product-item">
+                            <div class="product-img">
+                                <img src="./assets/img/Rectangle 308.png" alt="">
+                            </div>
+                            <a href="./page/product.html" class="body">
+                                <p>AIR PURIFICATION</p>
+                                <div class="qr-code">
+                                    <img src="./assets/img/qr.png" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-green">Xem tất cả<i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="introduce">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="introduce-img" data-aos="fade-down" data-aos-duration="1000">
+                        <img src="./assets/img/Rectangle 170.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="introduce-content mt-lg-3" data-aos="fade-up" data-aos-duration="1000">
+                        <p class="sub-text">Về chúng tôi</p>
+                        <div class="section-name">
+                            CÔNG TY CỔ PHẦN THƯƠNG MẠI KỸ THUẬT TECHMECO
+                        </div>
+                        <div class="body-content">
+                            <p>
+                                Chúng tôi là công ty họat động chuyên nghiệp trong lĩnh vực cung cấp sản phẩm QUẠT THÔNG GIÓ KRUGER<br>
+                                Các dịch vụ cho khách hàng luôn được công ty sẵn sàng cung cấp:
+                            </p>
+                            <div class="introduce-service">
+                                <p><i class="fas fa-share"></i>Tư vấn Kỹ thuật</p>
+                                <p><i class="fas fa-share"></i>Cung cấp các thiết bị QUẠT THÔNG GIÓ KRUGER</p>
+                                <p><i class="fas fa-share"></i>Bảo trì sữa chữa</p>
+                            </div>
+                            <p class="mb-3">Chúng tôi không ngừng sáng tạo để đáp ứng nhu cầu của Quý khách.</p>
+                            <p>
+                                Hãy đến với chúng tôi để được phục vụ tốt nhất!<br>
+                                Rất mong nhận được sự ủng hộ từ Quý khách hàng.
+                            </p>
+                        </div>
+                        <div class="text-left">
+                            <a href="#" class="btn btn-green">Xem thêm<i class="fas fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="service">
+        <div class="container">
+            <div class="title-category">
+                dịch vụ của chúng tôi
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-service-item" data-aos="fade-up" data-aos-duration="800">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 194.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Tư vấn Kỹ thuật</div>
+                            <div class="sapo text-truncate">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-service-item" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 194 (1).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">cung cấp các thiết bị quạt thông gió</div>
+                            <div class="sapo text-truncate">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-service-item" data-aos="fade-up" data-aos-duration="1200">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 194 (2).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">bảo trì sửa chữa</div>
+                            <div class="sapo text-truncate">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <div class="container">
+            <div class="title-category">
+                DỰ ÁN ĐÃ THỰC HIỆN
+            </div>
+            <div class="row mt-5" data-aos="fade-right" data-aos-duration="1000">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-project-item">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 3.png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-project-item">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 3 (1).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-project-item">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 3 (2).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-project-item">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 3 (3).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-project-item">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 3 (4).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card-project-item">
+                        <div class="card-img">
+                            <img src="./assets/img/Rectangle 3 (5).png" alt="">
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">Lorem ipsum dolor sit amet</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="#" class="btn btn-green">Xem tất cả</a>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <div class="title-category">
+                tin tức mới nhất
+            </div>
+            <div class="row no-gutters mt-4">
+                <div class="col-lg-6 col-md-6">
+                    <div class="card-news-item">
+                        <div class="card-img">
+                            <a href="./page/news-blog.html"><img src="./assets/img/Rectangle 144.png" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">
+                                <a href="./page/news-blog.html">We have instilled a profound service culture in our company from top to bottom</a>
+                            </div>
+                            <div class="sapo text-truncate">Tin tức chuyên ngành</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card-news-item">
+                        <div class="card-img">
+                            <a href="./page/news-blog.html"><img src="./assets/img/Rectangle 144 (1).png" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">
+                                <a href="./page/news-blog.html">Đánh giá nguy cơ lây nhiễm dịch covid-19 tại doanh nghiệp, cơ sở sx kinh doanh</a>
+                            </div>
+                            <div class="sapo text-truncate">Tin tức chuyên ngành</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card-news-item">
+                        <div class="card-img">
+                            <a href="./page/news-blog.html"><img src="./assets/img/Rectangle 144 (2).png" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">
+                                <a href="./page/news-blog.html">Price’s commitment to research, development, innovation, and precision</a>
+                            </div>
+                            <div class="sapo text-truncate">VĂN HÓA công ty</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card-news-item">
+                        <div class="card-img">
+                            <a href="./page/news-blog.html"><img src="./assets/img/Rectangle 144 (3).png" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">
+                                <a href="./page/news-blog.html">Phương án phòng chống dịch Covid-19</a>
+                            </div>
+                            <div class="sapo text-truncate">Tin tức chuyên ngành</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card-news-item">
+                        <div class="card-img">
+                            <a href="./page/news-blog.html"><img src="./assets/img/Rectangle 144 (4).png" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">
+                                <a href="./page/news-blog.html">We invest relentlessly in product development, in both differentiated</a>
+                            </div>
+                            <div class="sapo text-truncate">Tin tức chuyên ngành</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="card-news-item">
+                        <div class="card-img">
+                            <a href="./page/news-blog.html"><img src="./assets/img/Rectangle 144 (5).png" alt=""></a>
+                        </div>
+                        <div class="card-body">
+                            <div class="name text-truncate">
+                                <a href="./page/news-blog.html">THEO BẠN, SỨC KHỎE CỦA BẠN GỒM MẤY PHẦN?</a>
+                            </div>
+                            <div class="sapo text-truncate">Tin tức NỘI BỘ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center news-btn">
+                <a href="./page/news-page.html"><i class="fas fa-long-arrow-alt-right"></i>Xem thêm các tin tức mới nhất</a>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <div class="container position-relative">
+            <div class="title-category">
+                ĐỂ LẠI SỐ ĐIỆN THOẠI ĐỂ NHẬN TƯ VẤN
+            </div>
+            <div class="sub-text">
+                Vui lòng điền đầy đủ các thông tin theo mẫu dưới đây. Chúng tôi sẽ liên lạc với bạn trong 1 – 2 ngày làm việc
+            </div>
+            <form action="" class="contact-form">
+                <div class="input-group">
+                    <label for="name"><i class="fas fa-user"></i></label>
+                    <input type="text" id="name" placeholder="Họ tên">
+                </div>
+                <div class="input-group">
+                    <label for="phone"><i class="fas fa-phone-alt"></i></label>
+                    <input type="text" id="phone" placeholder="Điện thoại">
+                </div>
+                <button class="btn contact-btn">Gửi thông tin</button>
+            </form>
+        </div>
+    </div>
+    <div class="feedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="title-category">
+                        khách hàng nói về chúng tôi
+                    </div>
+                    <div class="feedback-list">
+                        <div class="feedback-item">
+                            <div class="user">
+                                <div class="user-img">
+                                    <img src="./assets/img/Ellipse 8.png" alt="">
+                                </div>
+                                <div class="user-body">
+                                    <div class="name">Jason Breddack</div>
+                                    <div class="sub-text">CEO Khách sạn</div>
+                                </div>
+                            </div>
+                            <div class="content text-truncate">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            </div>
+                        </div>
+                        <div class="feedback-item">
+                            <div class="user">
+                                <div class="user-img">
+                                    <img src="./assets/img/Ellipse 8.png" alt="">
+                                </div>
+                                <div class="user-body">
+                                    <div class="name">Jason Breddack</div>
+                                    <div class="sub-text">CEO Khách sạn</div>
+                                </div>
+                            </div>
+                            <div class="content text-truncate">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            </div>
+                        </div>
+                        <div class="feedback-item">
+                            <div class="user">
+                                <div class="user-img">
+                                    <img src="./assets/img/Ellipse 8.png" alt="">
+                                </div>
+                                <div class="user-body">
+                                    <div class="name">Jason Breddack</div>
+                                    <div class="sub-text">CEO Khách sạn</div>
+                                </div>
+                            </div>
+                            <div class="content text-truncate">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partner">
+        <div class="container">
+            <div class="title-category">
+                đối tác của chúng tôi
+            </div>
+            <div class="partner-list mt-5">
+                <div class="partner-item">
+                    <img src="./assets/img/images.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/logo-06-04.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/logo-hang-Honda.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/images.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/Horiba-Logo.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/132143102763876901.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/logo-hang-Honda.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/logo-hang-Honda.png" alt="">
+                </div>
+                <div class="partner-item">
+                    <img src="./assets/img/logo-hang-Honda.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-logo">
+                        <img src="./assets/img/Techmeco Logo 2.png" alt="">
+                    </div>
+                    <div class="footer-title">
+                        CÔNG TY CỔ PHẦN THƯƠNG MẠI KỸ THUẬT TECHMECO
+                    </div>
+                    <p class="mb-3"><b>Địa chỉ: </b>Phòng số 3 tầng 6A Kinh Đô Center, Tòa nhà Kinh Đô, 292 Tây Sơn, Phường Trung Liệt, Quận Đống đa, Hà Nội</p>
+                    <p class="mb-3"><b>Hotline: </b>0123.456.789</p>
+                    <p><b>Email: </b>techmeco@info.com​</p>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-info">
+                        <div class="footer-title">
+                            THÔNG TIN
+                        </div>
+                        <ul>
+                            <li><a href="#">Giới thiệu</a></li>
+                            <li><a href="#">Liên hệ</a></li>
+                            <li><a href="#">Đối tác</a></li>
+                            <li><a href="#">Tuyển dụng</a></li>
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Dịch vụ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-title">
+                        Sản phẩm
+                    </div>
+                    <div class="footer-product">
+                        <ul>
+                            <li><a href="#">QUẠT HƯỚNG TRỤC FERRARI</a></li>
+                            <li><a href="#">QUẠT LY TÂM FERRARI</a></li>
+                            <li><a href="#">QUẠT FERRARI</a></li>
+                            <li><a href="#">Sản phẩm nổi bật</a></li>
+                            <li><a href="#">Sản phẩm bán chạy</a></li>
+                            <li><a href="#">Sản phẩm khuyến mãi</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-title">
+                        FANPAGE
+                    </div>
+                    <div class="embed-responsive">
+                        <div class="fb-page" data-href="https://www.facebook.com/Thietkewebsite.vico" data-tabs="" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Thietkewebsite.vico" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Thietkewebsite.vico">Thiết Kế Website Vico</a></blockquote></div>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><img src="./assets/img/tiktok-logo-B9AC5FE794-seeklogo 1.png" alt=""></a>
+                        <a href="#"><img src="./assets/img/unnamed 1.png" alt=""></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copy-right">
+        Copyright © 2021 Techmeco All Rights Reserved. Designed by Vico Group
+    </div>
+    <div id="fb-root"></div>
+    <div class="overlay"></div>
+    <div onclick="topFunction()" class="btn-scroll" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0" nonce="KhaN3ykN"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./assets/direction-reveal/scripts/direction-reveal.js"></script>
+    <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
