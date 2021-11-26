@@ -114,40 +114,6 @@ a:hover {
   white-space: normal;
 }
 
-.btn-scroll {
-  display: none;
-  position: fixed;
-  right: 30px;
-  bottom: 20px;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: #137C37;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-  cursor: pointer;
-  z-index: 90;
-}
-.btn-scroll i {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  font-size: 1.25rem;
-  color: #fff;
-}
-@media (max-width: 1024px) {
-  .btn-scroll {
-    right: 20px;
-    bottom: 20px;
-  }
-}
-@media (max-width: 767px) {
-  .btn-scroll {
-    right: 10px;
-    bottom: 10px;
-  }
-}
-
 .direction-reveal {
   margin-bottom: 20px;
 }
@@ -222,6 +188,40 @@ a:hover {
   .direction-reveal .card-body .sapo,
 .direction-reveal .card-body .price {
     font-size: 0.875rem;
+  }
+}
+
+.btn-scroll {
+  display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #137C37;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  z-index: 90;
+}
+.btn-scroll i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.25rem;
+  color: #fff;
+}
+@media (max-width: 1024px) {
+  .btn-scroll {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .btn-scroll {
+    right: 10px;
+    bottom: 10px;
   }
 }
 

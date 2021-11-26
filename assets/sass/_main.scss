@@ -66,37 +66,6 @@
     white-space: normal;
 }
 
-// Scroll to top
-.btn-scroll {
-    display: none;
-    position: fixed;
-    right: 30px;
-    bottom: 20px;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background: $colorMain;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
-    cursor: pointer;
-    z-index: 90;
-    i {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 50px;
-        font-size: 1.25rem;
-        color: #fff;
-    }
-    @include maxWidth(1024px) {
-        right: 20px;
-        bottom: 20px;
-    }
-    @include maxWidth(767px) {
-        right: 10px;
-        bottom: 10px;
-    }
-}
-
 // Product Item
 .direction-reveal {
     margin-bottom: 20px;
@@ -180,5 +149,36 @@
                 font-size: .875rem;
             }
         }
+    }
+}
+
+// Scroll to top
+.btn-scroll {
+    display: none;
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $colorMain;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    z-index: 90;
+    i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: 1.25rem;
+        color: #fff;
+    }
+    @include maxWidth(1024px) {
+        right: 20px;
+        bottom: 20px;
+    }
+    @include maxWidth(767px) {
+        right: 10px;
+        bottom: 10px;
     }
 }
