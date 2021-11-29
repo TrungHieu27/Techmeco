@@ -4,7 +4,7 @@
     background: url('../img/Rectangle\ 1.png') no-repeat top center / cover;
     &-img {
         margin-top: 20px;
-        &.mt {
+        &.mt-70 {
             margin-top: 70px;
         }
         img {
@@ -371,8 +371,7 @@
         transition: .6s ease;
         border: 1px solid $colorMain;
         &:hover {
-            color: $colorMain;
-            background: transparent;
+            transform: scale(.9);
         }
     }
     @include maxWidth(1024px) {
@@ -440,6 +439,7 @@
         a {
             position: relative;
             background: $gradient;
+            background-clip: text;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-weight: 700;

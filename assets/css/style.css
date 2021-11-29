@@ -225,6 +225,23 @@ a:hover {
   }
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 90;
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.3s linear;
+}
+.overlay.active {
+  opacity: 1;
+  transform: scale(1);
+}
+
 .header-top {
   padding: 24px 30px;
 }
@@ -561,23 +578,6 @@ a:hover {
   }
 }
 
-.overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 90;
-  opacity: 0;
-  transform: scale(0);
-  transition: 0.3s linear;
-}
-.overlay.active {
-  opacity: 1;
-  transform: scale(1);
-}
-
 .header {
   width: 100%;
   padding-bottom: 20px;
@@ -586,7 +586,7 @@ a:hover {
 .header-img {
   margin-top: 20px;
 }
-.header-img.mt {
+.header-img.mt-70 {
   margin-top: 70px;
 }
 .header-img img {
@@ -925,8 +925,7 @@ a:hover {
   border: 1px solid #137C37;
 }
 .project .btn-green:hover {
-  color: #137C37;
-  background: transparent;
+  transform: scale(0.9);
 }
 @media (max-width: 1024px) {
   .project .card-project-item .card-img img {
@@ -985,6 +984,7 @@ a:hover {
 .news-btn a {
   position: relative;
   background: linear-gradient(90deg, #15851A 0%, #329736 100%);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
