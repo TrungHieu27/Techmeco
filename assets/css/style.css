@@ -364,7 +364,7 @@ a:hover {
   border-radius: 3px;
   background: rgba(0, 0, 0, 0.15);
   top: -100px;
-  transition: 0.3s ease;
+  transition: 0.3s linear;
 }
 .header-nav.sticky {
   position: fixed;
@@ -1290,6 +1290,9 @@ a:hover {
   padding: 0;
   border-radius: 0;
 }
+.header-bottom.active {
+  margin-top: 75px;
+}
 .header-bottom .title-category {
   color: #fff;
   text-align: left;
@@ -1331,6 +1334,9 @@ a:hover {
   padding: 0 0 0 20px;
   margin: 15px 0 0;
   border-radius: 0;
+}
+.breadcrumb.active {
+  margin-top: 75px;
 }
 .breadcrumb ul {
   list-style: none;

@@ -13,6 +13,9 @@ window.addEventListener("scroll", function() {
     $('.header-nav .nav').toggleClass("container", window.scrollY > 200);
     $('.header-nav').toggleClass("sticky", window.scrollY > 200);
     $('.header-img').toggleClass("mt-70", window.scrollY > 200);
+    $('.header-bottom').toggleClass("active", window.scrollY > 200);
+    $('.breadcrumb').toggleClass("active", window.scrollY > 200);
+
 });
 
 // Show/Hide Menu
