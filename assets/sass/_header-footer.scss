@@ -120,25 +120,27 @@
     margin: 0 auto;
     border-radius: 3px;
     background: rgba(0, 0, 0, .15);
+    top: -100px;
+    transition: .3s ease;
+    &.sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 0;
+        border-radius: 0;
+        background: $colorMain;
+        box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+        z-index: 98;
+    }
     .nav {
         display: flex;
         justify-content: space-around;
         background: $colorMain;
         list-style: none;
         border-radius: 3px;
-        padding: 0 30px;
         margin-bottom: 0;
         z-index: 98;
-        transition: .6s;
-        top: -100px;
-        &.sticky {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            border-radius: 0;
-            box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
-        }
         > li {
             padding: 12px 0;
             position: relative;

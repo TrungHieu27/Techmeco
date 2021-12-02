@@ -10,7 +10,8 @@ for( i = 0; i < 13; i++) {
 
 // Scroll Nav
 window.addEventListener("scroll", function() {
-    $('.header-nav ul').toggleClass("sticky", window.scrollY > 200);
+    $('.header-nav .nav').toggleClass("container", window.scrollY > 200);
+    $('.header-nav').toggleClass("sticky", window.scrollY > 200);
     $('.header-img').toggleClass("mt-70", window.scrollY > 200);
 });
 
