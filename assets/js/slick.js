@@ -122,3 +122,14 @@ $('.header-img').slick({
     centerMode: true,
     focusOnSelect: true
   });
+
+  // Project Page
+  $('.card-img-list').slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: '<button class="chevron-left"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow: '<button class="chevron-right"><i class="fas fa-chevron-right"></i></button>'
+  });

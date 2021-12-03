@@ -103,6 +103,22 @@ for( i = 0; i < 7; i++) {
   recentProductItem.clone().appendTo(recentProductList);
 }
 
+// Clone Card Project Item
+var projectList = $('.project-page .row');
+var projectItem = $('.project-page .col-lg-4');
+
+for( i = 0; i < 5; i++) {
+  projectItem.clone().appendTo(projectList);
+}
+
+// Clone Project Detail Img
+var projectList = $('.project-detail .project-img');
+var projectItem = $('.project-detail .col-lg-4');
+
+for( i = 0; i < 8; i++) {
+  projectItem.clone().appendTo(projectList);
+}
+
 // Slide Direction Reveal
 const directionRevealRotate = DirectionReveal({
   selector: '.direction-reveal',
@@ -110,6 +126,6 @@ const directionRevealRotate = DirectionReveal({
   animationName: 'slide',
   animationPostfixEnter: 'enter',
   animationPostfixLeave: 'leave',
-  enableTouch: true,
+  enableTouch: false,
   touchThreshold: 250
 });
