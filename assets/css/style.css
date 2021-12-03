@@ -2010,5 +2010,23 @@ a:hover {
   justify-content: start;
   font-size: 0.875rem;
 }
+@media (max-width: 1024px) {
+  .project-detail .direction-reveal .card-img img {
+    height: 200px;
+  }
+}
+@media (max-width: 576px) {
+  .project-detail .direction-reveal .card-img img {
+    height: 270px;
+  }
+  .project-detail .project-title {
+    font-size: 1.25rem;
+  }
+  .project-detail .sub-title,
+.project-detail .description,
+.project-detail dt, .project-detail dd {
+    font-size: 0.875rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

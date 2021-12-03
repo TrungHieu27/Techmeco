@@ -804,4 +804,30 @@
         justify-content: start;
         font-size: .875rem;
     }
+    @include maxWidth(1024px) {
+        .direction-reveal {
+            .card-img {
+                img {
+                    height: 200px;
+                }
+            }
+        }
+    }
+    @include maxWidth(576px) {
+        .direction-reveal {
+            .card-img {
+                img {
+                    height: 270px;
+                }
+            }
+        }
+        .project-title {
+            font-size: 1.25rem;
+        }
+        .sub-title,
+        .description,
+        dt,dd {
+            font-size: .875rem;
+        }
+    }
 }
