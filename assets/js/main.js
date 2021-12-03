@@ -129,3 +129,10 @@ const directionRevealRotate = DirectionReveal({
   enableTouch: false,
   touchThreshold: 250
 });
+
+// Fancy Box
+$('[data-fancybox="gallery"]').fancybox({
+	loop: true,
+  animationEffect: "circular",
+  transitionEffect: "circular",
+});
